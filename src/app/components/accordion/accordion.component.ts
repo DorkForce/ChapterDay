@@ -4,8 +4,7 @@ import { setElementId, stringToBoolean } from "../../helpers/dds-helpers";
 
 @Component({
   selector: "dds-accordion",
-  templateUrl: "./accordion.component.html",
-  styleUrls: ["./accordion.component.scss"]
+  templateUrl: "./accordion.component.html"
 })
 export class AccordionComponent extends DdsComponent implements OnInit, Input {
   @Input() elementId: string;
